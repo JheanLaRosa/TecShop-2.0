@@ -1,0 +1,207 @@
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    p, li {
+        font-size: 16px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background: radial-gradient(ellipse at center, #000000, #ffffff );
+    margin: 0;    
+}
+
+header {
+    background-color: #000000;
+    color: yellowgreen;    
+    text-align: center;
+    text-shadow: black 3px 2px 2px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+
+
+
+
+h1 {
+    font-size: 72px;
+    margin: 0;
+    color: white;
+    text-shadow: yellowgreen 2px 2px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 52px;
+    margin: 20px 0;
+    color: yellowgreen;
+    text-align: center;
+    text-shadow: white 2px 2px 2px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+section {
+    background-color: #080808;
+    color: yellowgreen;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    display: inline-block;    
+    
+}
+
+li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+        
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellowgreen;   
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+    text-align: center;
+}
+
+button {
+    background-color: yellowgreen;
+    color: white;
+    border: white 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+button.contacto a {
+    color: white;
+    text-decoration: none;
+}
+button.contacto a:hover {
+    text-decoration: underline;
+    color: white;   
+}
+
+img {
+      margin: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      align-items: center;
+  }
+
+footer img {
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    align-items: center;
+}
+
+
+footer {
+    background-color: #313131;
+    color: rgb(170, 255, 0);
+    text-align: center;
+    padding: 10px;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+}

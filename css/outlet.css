@@ -1,0 +1,192 @@
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    p {
+        font-size: 16px;
+        width: 90%;
+    } 
+    
+}
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background: radial-gradient(ellipse at center, #000000, #ffffff );
+    margin: 0;    
+}
+
+header {
+    background-color: #000000;
+    color: yellowgreen;    
+    text-align: center;
+    text-shadow: black 3px 2px 2px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellowgreen;   
+}
+
+h1 {
+    font-size: 72px;
+    margin: 0;
+    color: white;
+    text-shadow: yellowgreen 3px 2px 2px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 52px;
+    margin: 20px 0;
+    color: yellowgreen;
+    text-align: center;
+    text-shadow: white 2px 2px 2px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: white;
+    border: white 2px solid;
+}
+
+button:hover {
+    background-color: black;
+    color: yellowgreen;
+    border: yellowgreen 2px solid;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    text-shadow: black 1px 1px 2px;
+}
+
+table {
+    background-color: black;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    color: white;
+    border: 2px solid white;    
+}
+
+caption {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: yellowgreen;
+    text-shadow: white 2px 2px 2px;
+}
+
+thead {
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(126, 126, 126);    
+}
+
+table tr:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+footer img {
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    align-items: center;
+}
+
+footer {
+    background-color: #313131;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+}
