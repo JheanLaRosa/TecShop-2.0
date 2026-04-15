@@ -7,50 +7,123 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos-formulario.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/formulario.css">
 </head>
 <body>
-       <header>
-        <nav>
-            <a href="index.html">Inicio</a>  |
-            <a href="servicios.html">Servicios</a>  |
-            <a href="productos.html">Productos</a>  |
-            <a href="contacto.html">Contacto</a>  |
-            <a href="remate.html">Zona Outlet</a>  |
-            <label for="categorias"></label>
-            <select id="categorias" name="categorias">
-                <option value="Categorías">Categorías</option>
-                <option value="laptops">Laptops</option>
-                <option value="Pcs">Pcs de Escritorio</option>
-                <option value="monitores">Monitores</option>
-                <option value="accesorios">Accesorios</option>
-                <option value="Memorias">Memorias</option>
-                <option value="Almacenamiento">Almacenamiento</option>
-                <option value="Refrigeracion">Refrigeracion</option>
-                <option value="Graficas">Tarjetas Gráficas</option>
-                <option value="Fuentes">Fuentes de Poder</option>
-            </select>
-                
-            <input type="search" placeholder="Buscar marca o producto..."> <button type="submit">Buscar</button>
-        </nav>
-    </header>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html">INICIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./remate.html">Zona Outlet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorías
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./laptops.html">Laptops</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./computadoras.html  ">Pcs de Escritorio</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./monitores.html">Monitores</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./memorias.html">Memorias</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./almacenamiento.html">Almacenamiento</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./refrigeracion.html">Refrigeración</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./graficas.html">Tarjetas Gráficas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./fuentes.html">Fuentes de Poder</a></li>
+            
+          </ul>
+        </li>        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="..." aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
     <img src="./imagenes/logo.png" alt="Logo de Tecshop" width="1500" height="350">
     <div>
         <h1>Formulario de Contacto</h1>
         <p>Si deseas que te contactemos, completa el siguiente formulario:</p>
     </div>
-        <label for="contacto">
-            <p><strong>Nombre:</strong></p>
-            <input type="text" id="contacto" name="contacto" placeholder="Tu nombre o el de tu empresa">
-            <p><strong>Correo electrónico:</strong></p >
-            <input type="email" id="contacto" name="contacto" placeholder="Tu correo electrónico">
-            <p><strong>Número de teléfono:</strong></p>
-            <input type="tel" id="contacto" name="contacto" placeholder="Tu número de teléfono">
-            <p><strong>Mensaje:</strong></p>
-            <textarea id="contacto" name="contacto" placeholder="Tu mensaje" ></textarea>
-            <p><button type="submit">Enviar</button></p>
+       
+    <div id="formulario" class="row g-3">
+  <div class="col-md-6">
+    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+  </div>
+
+  <form class="row g-3">
+  <div class="col-md-3" >    
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electrónico">
+  </div>
+
+  <div class="col-md-3">
+    <input type="text" class="form-control" placeholder="Número de Teléfono" aria-label="First name">
+  </div>
+
+   <div class="mb-3">
+      
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Escriba su mensaje aquí"></textarea>
+
+</div>
+
+  <div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary" type="button">Enviar</button>
+</div>
         </label>
+
+<footer>
+        
+        <div>
+            <p>Nuestras Redes Sociales:</p>
+            <a href="http://www.facebook.com"><img src="./imagenes/facebook.jpg" width="30" height="30" alt=""></a>
+            <a href="http://www.instagram.com"><img src="./imagenes/instagram.jpg" width="30" height="30" alt=""></a>
+            <a href="http://www.youtube.com"><img src="./imagenes/youtube.jpg" width="30" height="30" alt=""></a>
+            <a href="http://www.tiktok.com"><img src="./imagenes/tiktok.jfif" width="30" height="30" alt=""></a>
+        </div>
+        <div>
+            <p>Libro de Reclamaciones</p>
+            <img src="./imagenes/libro.jpg" alt="Libro de Reclamaciones" width="100" height="50">
+        </div>
+        <div>
+            <p>Formas de pago:</p>
+           <img src="./imagenes/visalogo.jpg" alt="Logo de Visa" width="50" height="30">
+           <img src="./imagenes/mastercard.png" alt="Logo de Mastercard" width="50" height="30">
+           <img src="./imagenes/amexlogo.png" alt="Logo de American Express" width="50" height="30">
+           <img src="./imagenes/yapelogo.png" alt="Logo de Yape" width="50" height="30">
+           <img src="./imagenes/plinlogo.png" alt="Logo de Plin" width="50" height="30">
+        </div>
+        
+        <p>© 2026 TecShop Perú. Todos los derechos reservados.</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
